@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+<body>
+  <main class="main-container">
+    <section class="card-1">
+      <article>
+        <!-- Sign-up form start -->
+        <p>
+          Stay updated!
+        </p>
+        <p>
+          Join 60,000+ product managers receiving monthly updates on:
+        </p>
+        <p>
+          <div class="item">
+            <figure class="imgBox">
+              <img src="assets/images/icon-list.svg" alt="">
+            </figure>
+            <p>Product discovery and building what matters</p>
+          </div>
+          <div class="item">
+            <div class="imgBox">
+              <img src="assets/images/icon-list.svg" alt="">
+            </div>
+            <p>Measuring to ensure updates are a success</p>
+          </div>
+          <div class="item">
+            <div class="imgBox">
+              <img src="assets/images/icon-list.svg" alt="">
+            </div>
+            <p>And much more!</p>
+          </div>
+        </p>
+        <p class="email">
+          Email address
+        </p>
+        <form>
+          <input type="email" placeholder="email@company.com" class="email-input">
+          <input type="submit" value="Subscribe to monthly newsletter" class="btn">
+          <div class="alert"></div>
+        </form>
+        <!-- Sign-up form end -->
+      </article>
+      <figure class="main-image">
+        <img src="assets/images/illustration-sign-up-desktop.svg" alt="">
+      </figure>
+    </section>
+
+    <section class="card-2">
+      <div class="imgBoxSuccess">
+        <img src="assets/images/icon-success.svg" alt="">
+      </div>
+      <!-- Success message start -->
+      <p class="title">
+        Thanks for subscribing!
+      </p>
+
+      <p class="text">
+        A confirmation email has been sent to <span>ash@loremcompany.com.</span> 
+        Please open it and click the button inside to confirm your subscription.
+      </p>
+      
+      <button class="dismiss-btn">
+        Dismiss message
+      </button>
+      <!-- Success message end -->
+    </section>
+  </main>
+</body>
+<script src="main.js"></script>
+</html>
